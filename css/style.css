@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+section {
+  overflow: hidden;
+}
+.hero-section {
+  background: linear-gradient(
+      to right,
+      rgba(39, 70, 133, 0.8) 0%,
+      rgb(61 179 197 / 56%) 100%
+    ),
+    url(../images/hero-bg.jpg);
+  position: relative;
+  height: 100vh;
+  min-height: 880px;
+}
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(-45deg, #3db3c5, #274685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-section .wave {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: -220px;
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.hero-section p {
+  font-size: 18px;
+  color: #fff;
+}
